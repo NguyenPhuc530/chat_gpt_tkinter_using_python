@@ -5,14 +5,12 @@ This project is a simple ChatGPT application built using Python's Tkinter librar
 ## Project Structure
 
 ```
-chatgpt-tkinter-app
-├── src
-│   ├── app.py                # Main entry point of the application
-│   ├── chatgpt
-│   │   ├── __init__.py       # Marks the directory as a Python package
-│   │   └── gpt_client.py      # Handles communication with the OpenAI API
-├── requirements.txt           # Lists the dependencies required for the project
-└── README.md                  # Documentation for the project
+chatgpt_gpt_tkinter_using_python/
+│.gitignore
+│LICENSE                    # License of this project
+│README.MD                  # Read this to run the program
+│openai.py                  # Main project
+│requirement.txt            # What modules to install
 ```
 
 ## Requirements
@@ -37,7 +35,7 @@ openai.api_key = "your_api_key"
 python chat_gpt_tkinter_using_python
 ```
 
-4. A GUI window will open where you can interact with the ChatGPT model. Type your message in the input field and press Enter to receive a response.
+7. A GUI window will open where you can interact with the ChatGPT model. Type your message in the input field and press Enter to receive a response.
 
 ## License
 
