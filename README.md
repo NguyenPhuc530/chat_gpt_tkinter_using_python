@@ -1,2 +1,40 @@
-# chat_gpt_tkinter_using_python
-Chatbot openai using chatgpt and tkinter module using python
+# ChatGPT Tkinter Application
+
+This project is a simple ChatGPT application built using Python's Tkinter library for the graphical user interface (GUI) and the OpenAI API for generating responses.
+
+## Project Structure
+
+```
+chatgpt-tkinter-app
+├── src
+│   ├── app.py                # Main entry point of the application
+│   ├── chatgpt
+│   │   ├── __init__.py       # Marks the directory as a Python package
+│   │   └── gpt_client.py      # Handles communication with the OpenAI API
+├── requirements.txt           # Lists the dependencies required for the project
+└── README.md                  # Documentation for the project
+```
+
+## Requirements
+
+To run this application, you need to install the required dependencies. You can do this by running:
+
+```
+pip install -r requirements.txt
+```
+
+## Usage
+
+1. Clone the repository or download the source code.
+2. Navigate to the project directory.
+3. Run the application using the following command:
+
+```
+python src/app.py
+```
+
+4. A GUI window will open where you can interact with the ChatGPT model. Type your message in the input field and press Enter to receive a response.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
