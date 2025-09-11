@@ -25,17 +25,16 @@ pip install -r requirements.txt
 
 1. Clone the repository or download the source code.
 2. Go to https://platform.openai.com/api-keys to get the api_key
-3. If you don't know how to do that visit this page:https://www.merge.dev/blog/chatgpt-api-key
-4. Navigate to the project directory.
-5. Go to openai.py and paste your openai api_key in this command:
+3. Navigate to the project directory.
+4. Go to openai.py and paste your openai api_key in this command:
 openai.api_key = "your_api_key"
-6. Run the application using the following command:
+5. Run the application using the following command:
 
 ```
 python chat_gpt_tkinter_using_python
 ```
 
-7. A GUI window will open where you can interact with the ChatGPT model. Type your message in the input field and press Enter to receive a response.
+6. A GUI window will open where you can interact with the ChatGPT model. Type your message in the input field and press Enter to receive a response.
 
 ## License
 
