@@ -1,0 +1,6 @@
+- Sửa openai.py để:  
+  - Lấy API key từ biến môi trường OPENAI_API_KEY thay vì hardcode.  
+  - Sử dụng openai.ChatCompletion.create(...) đúng theo SDK.  
+  - Thực hiện request trong thread riêng để tránh đóng băng GUI.  
+  - Lưu conversation history để duy trì ngữ cảnh giữa các lượt hỏi đáp.  
+  - Thêm xử lý lỗi cơ bản và bật/tắt input khi chờ phản hồi. (Lưu ý) Hiện tại chỉ cập nhật openai.py. Nếu bạn muốn, mình sẽ thêm các thay đổi cho README.md, requirements.txt và ai.py trước khi merge.
